@@ -9,6 +9,7 @@ appEventData.push({
   "event": "Page Load Started",
     "page": {
         "action_taken": "<action_taken>",
+        "adobe_user_id": "<adobe_user_id>",
         "customer_flow": "<customer_flow>",
         "oem": "<oem>",
         "pageCategory": "<pageCategory>",
@@ -32,6 +33,7 @@ appEventData.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |page.action_taken|string|Datasource path for Action Taken attribute.||||||||
+|page.adobe_user_id|string|Tracks the assigned Adobe User ID||||||||
 |page.customer_flow|string|Datasource for Customer Flow.||||||||
 |page.oem|string|OEM Datasource|GM12345678|[A-Za-z0-9]+||||||
 |page.pageCategory|string|General category or Site Section of the page. Top level of page hierarchy.|Home, About Us, Shop, Account, Blog, Investors|||||||
