@@ -9,5 +9,6 @@
 |Checkout Step Encounters|Static|1|Description not provided|
 |Set category to 'product'|Static|product|Description not provided|
 
+## Attached Notes
 
-
+<p>The priceTier should be the product tier for SXM.</p>
