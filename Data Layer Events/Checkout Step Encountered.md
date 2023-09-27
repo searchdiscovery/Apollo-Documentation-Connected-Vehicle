@@ -37,6 +37,6 @@ appEventData.push({
 |product[n].productInfo.productID|string|Unique Identifier of a product or offering.  Must match the format of back-end systems if used as a key for import of product meta data. Most often, one level above SKU for products with SKU variants. |155, 65588, 987764448|||||||
 |product[n].productInfo.variant_id|string|Datasource for Variant ID||||||||
 
+## Attached Notes
 
-
-
+<p>The priceTier should be the product tier for SXM.</p>
