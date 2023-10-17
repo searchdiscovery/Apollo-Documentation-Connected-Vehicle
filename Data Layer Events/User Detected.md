@@ -21,6 +21,8 @@ appEventData.push({
 |user.custKey|string|Unique identifier of a customer.  Any id's considered PII must be hashed. ||||||||
 |user.loginStatus|string|Describes the login state of the user|logged in, logged out, guest|||||||
 
+## Attached Notes
 
-
-
+<div>
+<div>This event is part of the page load sequence, including virtual page loads in the case of single page apps, and must be pushed between the Page Load Started and Page Load Completed events, after a user has been authenticated.</div>
+</div>

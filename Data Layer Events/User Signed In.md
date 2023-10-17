@@ -21,6 +21,6 @@ appEventData.push({
 |user.custKey|string|Unique identifier of a customer.  Any id's considered PII must be hashed. ||||||||
 |user.hashedEmail|string|The email address of a given user \(pre-hashed in the data layer with hashing algorithm of choice, such as MD5 or SHA-2\).|b642b4217b34b1e8d3bd915fc65c4452|||||||
 
+## Attached Notes
 
-
-
+<p>Fire whenever a user successfully signs in to an account.</p>

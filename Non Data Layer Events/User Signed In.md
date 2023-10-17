@@ -8,5 +8,6 @@
 | --- | --- | --- | --- |
 |Count Sign Ins|Static|1|Description not provided|
 
+## Attached Notes
 
-
+<p>Fire whenever a user successfully signs in to an account.</p>
