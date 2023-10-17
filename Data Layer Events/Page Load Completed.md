@@ -14,6 +14,8 @@ appEventData.push({
 
 
 
+## Attached Notes
 
-
-
+<div>
+<div>Page Load Completed is part of the page load sequence, including virtual page loads in the case of single page apps, and must be the <strong>last event pushed</strong> in the page load event sequence.</div>
+</div>
