@@ -21,6 +21,6 @@ appEventData.push({
 |user.custKey|string|Unique identifier of a customer.  Any id's considered PII must be hashed. ||||||||
 |user.loginStatus|string|Describes the login state of the user|logged in, logged out, guest|||||||
 
+## Attached Notes
 
-
-
+<p>Fire whenever a user successfully signs out of an account.</p>
