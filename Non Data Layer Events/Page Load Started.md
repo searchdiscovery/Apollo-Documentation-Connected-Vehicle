@@ -6,8 +6,9 @@
 
 | Attribute Name|Data Source Type|Data Source|Description|
 | --- | --- | --- | --- |
+|Adobe User ID|Custom Code|//via Adobe Launch|Describes the assigned Adobe User ID. \(MCID\)|
 |Host Name (s.server)|Custom Code|hostname;|Description not provided|
-|IP Address (evar)|Custom Code|//Implemented via AA Launch Rule|Describes the IP Address of the current user.|
+|IP Address (evar)|Custom Code|//via AA Launch|Describes the IP Address of the current user.|
 |Launch Build Info|Custom Code|getVar("Launch | Build property");|Datasource for Launch Build info.|
 |URL (Full)|Custom Code|href;|Description not provided|
 |URL Path|Custom Code|pathname;|Description not provided|
