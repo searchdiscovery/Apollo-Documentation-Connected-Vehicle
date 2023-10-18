@@ -21,6 +21,6 @@ appEventData.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |onsiteSearch.keyword.searchTerm|string|Describes the search keyword used after auto-correct, auto-complete, or keyword suggestion. |bluth, blue, red lobster|||||||
 
+## Attached Notes
 
-
-
+<p>Fire this event when a seach submission returns 0 items from a search query. This includes product searches, content searches, resource searches, etc. and does not require an Onsite Search Performed event to be fired prior to it.</p>
