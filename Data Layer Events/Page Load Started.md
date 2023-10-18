@@ -8,12 +8,9 @@ window.appEventData = window.appEventData || [];
 appEventData.push({
   "event": "Page Load Started",
     "page": {
-        "action_taken": "<action_taken>",
-        "adobe_user_id": "<adobe_user_id>",
         "customer_flow": "<customer_flow>",
         "oem": "<oem>",
         "pageCategory": "<pageCategory>",
-        "pageExperience": "<pageExperience>",
         "pageName": "<pageName>",
         "pageType": "<pageType>",
         "siteCountry": "<siteCountry>",
@@ -32,12 +29,9 @@ appEventData.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|page.action_taken|string|Datasource path for Action Taken attribute.||||||||
-|page.adobe_user_id|string|Describes the assigned Adobe User ID||||||||
 |page.customer_flow|string|Describes the subscription flow. eg common enrollment, common subscription, enrollment-upsell, direct-link - packages|common enrollment, common subscription, enrollment-upsell, direct-link - packages|||||||
 |page.oem|string|Describes the Original Equipment Manufacturer \(OEM\).|nissan, mopar|||||||
 |page.pageCategory|string|General category or Site Section of the page. Top level of page hierarchy.|Home, About Us, Shop, Account, Blog, Investors|||||||
-|page.pageExperience|string|When a feature ramp up is taking place, capture a code to identify users receiving that feature's experience.||||||||
 |page.pageName|string|Describes the page and its content specifically. |product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
 |page.pageType|string|Describes what purpose the page serves. Often aligns with the CMS template.|Home, Event Detail, Property Detail, Product Listing, Blog Post, Shopping Cart|||||||
 |page.siteCountry|string|Indicates the primary country served by the site. ISO 3166 \(alpha-2\) Uppercase.|US, CA, FR, UK|^[A-Z]{2}$||||||
