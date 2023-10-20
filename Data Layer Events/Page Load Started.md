@@ -29,7 +29,7 @@ appEventData.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|page.customer_flow|string|Describes the subscription flow. eg common enrollment, common subscription, enrollment-upsell, direct-link - packages|common enrollment, common subscription, enrollment-upsell, direct-link - packages|||||||
+|page.customer_flow|string|Describes the subscription flow. eg 'Common Enrollment: Optional Upsell \| mktg-link: \/trial' \(ref pdf\)|Common Enrollment: Optional Upsell \| mktg-link: \/trial, Common Subscription: Organic Navigation \| mktg-link: \/home -&gt; \/manage|||||||
 |page.oem|string|Describes the Original Equipment Manufacturer \(OEM\).|nissan, mopar|||||||
 |page.pageCategory|string|General category or Site Section of the page. Top level of page hierarchy.|Home, About Us, Shop, Account, Blog, Investors|||||||
 |page.pageName|string|Describes the page and its content specifically. |product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
