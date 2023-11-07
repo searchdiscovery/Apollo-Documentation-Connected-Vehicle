@@ -17,6 +17,7 @@ appEventData.push({
                     "name": "<name>",
                     "package_id": "<package_id>",
                     "priceTier": "<priceTier>",
+                    "productDiscount": "<productDiscount>",
                     "productID": "<productID>",
                     "variant_id": "<variant_id>"
                 },
@@ -50,6 +51,7 @@ appEventData.push({
 |transaction.item[n].productInfo.name|string|Product 'Name' utilized in the order transaction, item-level.||||||||
 |transaction.item[n].productInfo.package_id|string|The selected subscription Package ID. eg the ID associated with Package  $100\/year \*\(item-level\)|123456789|||||||
 |transaction.item[n].productInfo.priceTier|string|Describes the subscription pricing tier of a selected subscription package. \(eg 3-month Trial, 6-Month Trial, $100mo, etc..\)|3-month Trial, 6-Month Trial, $100mo|||||||
+|transaction.item[n].productInfo.productDiscount|string|Describes the Product Discount \(order\).|50% Off, Free Trial|||||||
 |transaction.item[n].productInfo.productID|string|Unique Identifier of a product or offering.  Must match the format of back-end systems if used as a key for import of product meta data. Most often, one level above SKU for products with SKU variants. |155, 65588, 987764448|||||||
 |transaction.item[n].productInfo.variant_id|string|The selected subscription package \(add-on\) Variant ID. eg the ID associated with any subscription package \(add-on\) variant, if applicable. \*\(item-level\)|123456789|||||||
 |transaction.item[n].quantity|integer|Integer number of products being acted upon \(added to a cart, removed from wishlist, purchased, reserved\)|1, 2, 3, 4, 5||||1|||
