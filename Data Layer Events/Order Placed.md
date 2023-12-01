@@ -2,7 +2,6 @@
 
 ### This event is part of the page load sequence, including virtual page loads in the case of single page apps, and must be pushed between the `Page Load Started` and `Page Load Completed` events.
 
-
 ## Javascript Code
 ```js
 window.appEventData = window.appEventData || [];
@@ -67,8 +66,3 @@ appEventData.push({
 ## Attached Notes
 
 <p>Fire this event when the user successfully completes the order/purchase (successful form post) of a enrollment/subscription.</p>
-
-<div>
-<div>This event is part of the page load sequence, including virtual page loads in the case of single page apps, and must be pushed between the Page Load Started and Page Load Completed events, after a user has been authenticated.</div>
-</div>
-
