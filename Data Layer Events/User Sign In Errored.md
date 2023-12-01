@@ -8,7 +8,6 @@ window.appEventData = window.appEventData || [];
 appEventData.push({
   "event": "User Sign In Errored",
     "user": {
-        "custKey": "<custKey>",
         "loginStatus": "<loginStatus>"
     }
 });
@@ -18,7 +17,6 @@ appEventData.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|user.custKey|string|Unique identifier of a customer.  Any id's considered PII must be hashed. ||||||||
 |user.loginStatus|string|Describes the login state of the user|logged in, logged out, guest|||||||
 
 ## Attached Notes
