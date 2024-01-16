@@ -20,6 +20,7 @@ appEventData.push({
         "subsection": "<subsection>",
         "subsection2": "<subsection2>",
         "subsection3": "<subsection3>",
+        "vehicleID": "<vehicleID>",
         "vin_mask": "<vin_mask>"
     }
 });
@@ -41,7 +42,8 @@ appEventData.push({
 |page.subsection|string|First sub-level of hierarchy under pageCategory or Site Section. |Shop &gt; Kids, Shop &gt; Mens, Shop &gt; Womens|||||||
 |page.subsection2|string|Second sub-level of hierarchy under pageCategory or Site Section. |Shop &gt; Kids &gt; Tops, Shop &gt; Mens &gt; Shoes|||||||
 |page.subsection3|string|Third sub-level of hierarchy under pageCategory or Site Section. |Shop &gt; Kids &gt; Tops &gt; Tees, Shop &gt; Mens &gt; Shoes &gt; Oxfords|||||||
-|page.vin_mask|string|Describes the customers Vehicle Identification Number \(VIN\). \*VIN should be hashed.|4e0fdf273923f840074344863d9ad582a37243ab26b5b32e0e267ed22c08c93a|||||||
+|page.vehicleID|string|Describes the alpha-numeric vehicleID that is unique to SXM. \(not VIN\)||||||||
+|page.vin_mask|string|Describes the customers Vehicle Identification Number \(VIN\). \*VIN should be hashed the same and as required. ex.  \*\*\*\*\*\*\*\*\*JT630290 \(3F4NKCAC8JT630290\)|4e0fdf273923f840074344863d9ad582a37243ab26b5b32e0e267ed22c08c93a|||||||
 
 ## Attached Notes
 
