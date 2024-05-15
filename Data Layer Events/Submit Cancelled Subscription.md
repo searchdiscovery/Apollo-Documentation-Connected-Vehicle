@@ -1,4 +1,4 @@
-# Submit Cancelled Subscriptions
+# Submit Cancelled Subscription
 
 ### 
 
@@ -6,7 +6,7 @@
 ```js
 window.appEventData = window.appEventData || [];
 appEventData.push({
-  "event": "Submit Cancelled Subscriptions",
+  "event": "Submit Cancelled Subscription",
     "itemSelected": "<itemSelected>",
     "product": [
         {

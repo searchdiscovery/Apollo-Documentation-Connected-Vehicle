@@ -1,4 +1,4 @@
-# cancelSubscription
+# Cancel Subscription
 
 ### 
 
@@ -6,7 +6,7 @@
 ```js
 window.appEventData = window.appEventData || [];
 appEventData.push({
-  "event": "cancelSubscription",
+  "event": "Cancel Subscription",
     "cancelReason": "<cancelReason>"
 });
 ```

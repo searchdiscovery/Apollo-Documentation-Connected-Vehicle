@@ -1,4 +1,4 @@
-# cancelSubscription
+# Cancel Subscription
 
 ### 
 
